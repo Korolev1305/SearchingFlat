@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ewigkeit.searching_flat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:name=".App"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".AddData.AddDataEstateActivity">
+
+        </activity>
+        <activity android:name=".AddData.AddDataFlatTypeActivity">
+
+        </activity>
+        <activity android:name=".AddData.AddDataPhotosActivity">
+
+        </activity>
+        <activity android:name=".AddData.AddDataAddressActivity">
+
+        </activity>
+        <activity android:name=".AddData.AddDataDistrictActivity">
+
+        </activity>
+        <activity android:name=".AddData.AddDataRepairTypeActivity">
+
+        </activity>
+        <activity android:name=".EstateListActivity">
+
+        </activity>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity">
+
+        </activity>
+    </application>
+
+</manifest>

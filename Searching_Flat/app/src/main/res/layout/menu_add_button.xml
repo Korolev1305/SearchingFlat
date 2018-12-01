@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EstateListActivity"
+    android:layout_height="1.0dp"
+    android:layout_width="1.0dp">
+
+    <item
+        android:id="@+id/action_add_address"
+        android:title="Add address"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_estate"
+        android:title="Add estate"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_repairtype"
+        android:title="Add repair type"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_district"
+        android:title="Add district"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_photos"
+        android:title="Add photos"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_add_flattype"
+        android:title="Add flat type"
+        android:showAsAction="always"/>
+</menu>
